@@ -1,17 +1,23 @@
 ![CI](https://github.com/fqhtmpt/qa-automation-project/actions/workflows/ci.yml/badge.svg)
 
-# ✅ QA Automation Project
+# QA Automation Project
 
-Proyek ini berisi script otomatisasi pengujian (**UI Test Automation**) untuk fitur login pada website [SauceDemo](https://www.saucedemo.com/) menggunakan **Python**, **Selenium**, dan **PyTest**.
+Sebuah project automation testing berbasis Python + Selenium untuk menguji login form dari situs [SauceDemo](https://www.saucedemo.com/).
 
----
+## ✅ Fitur yang Diotomasi
+- Login dengan kredensial valid
+- Validasi pesan error login invalid
+- Test input ekstrem (karakter khusus, panjang, dll)
 
-## 🔧 Teknologi yang Digunakan
-
-- Python 3
+## ⚙️ Tech Stack
+- Python 3.11
 - Selenium WebDriver
 - PyTest
-- PyTest HTML Report
+- HTML Report (`pytest-html`)
+- GitHub Actions CI (badge di atas 👆)
+
+## 📂 Struktur Folder
+
 
 ```
 
@@ -45,8 +51,9 @@ qa-automation-project/
 
 ---
 
-## 🚀 Cara Menjalankan Tes
+#
+## 📄 Cara Menjalankan Test
+```bash
+pip install -r requirements.txt
+pytest tests/ --html=reports/report.html
 
-1. Install semua dependency yang dibutuhkan:
-   ```bash
-   pip install -r requirements.txt
