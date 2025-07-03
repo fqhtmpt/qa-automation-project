@@ -9,7 +9,7 @@ import time
     ("standard_user", "", "Password is required"),
     ("", "secret_sauce", "Username is required"),
     ("salah_user", "salah_password", "Username and password do not match any user"),
-    (" "*10, " "*10, "Username is required"),
+    (" "*10, " "*10, "Username and password do not match"),
     ("!"*50, "@"*50, "Username and password do not match any user"),
     ("a"*300, "b"*300, "Username and password do not match any user")
 ])
