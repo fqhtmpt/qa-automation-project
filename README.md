@@ -11,7 +11,7 @@ Proyek ini berisi script otomatisasi pengujian (**UI Test Automation**) untuk fi
 - PyTest
 - PyTest HTML Report
 
----
+```
 
 ## 📁 Struktur Folder
 
@@ -29,7 +29,7 @@ qa-automation-project/
 ├── requirements.txt            # Dependency untuk project
 └── README.md                   # Dokumentasi project
 
----
+```
 
 ## ✅ Skenario Pengujian
 
