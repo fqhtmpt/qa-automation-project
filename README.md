@@ -1,8 +1,4 @@
-```
-
 ![CI](https://github.com/fqhtmpt/qa-automation-project/actions/workflows/ci.yml/badge.svg)
-
-```
 
 # ✅ QA Automation Project
 
