@@ -35,6 +35,11 @@ qa-automation-project/
 
 - [✔️] Login dengan **username & password yang benar**
 - [✔️] Login dengan **username & password yang salah** (validasi error)
+- [✔️] Login dengan username & password yang benar
+- [✔️] Login dengan username & password yang salah (validasi error)
+- [✔️] Kombinasi input kosong, spasi, dan karakter aneh
+- [✔️] Input panjang ekstrem (300+ karakter)
+
 
 ---
 
