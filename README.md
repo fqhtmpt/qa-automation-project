@@ -1,3 +1,9 @@
+```
+
+![CI](https://github.com/fqhtmpt/qa-automation-project/actions/workflows/ci.yml/badge.svg)
+
+```
+
 # ✅ QA Automation Project
 
 Proyek ini berisi script otomatisasi pengujian (**UI Test Automation**) untuk fitur login pada website [SauceDemo](https://www.saucedemo.com/) menggunakan **Python**, **Selenium**, dan **PyTest**.
