@@ -1,5 +1,5 @@
 import pytest
-from selenium import webdriver
+from utils.browser import create_driver
 from selenium.webdriver.common.by import By
 from pages.login_page import LoginPage
 import time
@@ -14,7 +14,7 @@ import time
     ("a"*300, "b"*300, "Username and password do not match any user")
 ])
 def test_login_invalid_variations(username, password, expected):
-    driver = webdriver.Chrome()
+    driver = create_driver()
     driver.maximize_window()
     driver.get("https://www.saucedemo.com")
 

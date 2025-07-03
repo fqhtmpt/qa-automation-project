@@ -1,10 +1,10 @@
-from selenium import webdriver
+from utils.browser import create_driver
 from selenium.webdriver.common.by import By
 from pages.login_page import LoginPage
 import time
 
 def test_login_valid():
-    driver = webdriver.Chrome()
+    driver = create_driver()
     driver.maximize_window()
     driver.get("https://www.saucedemo.com")
 
